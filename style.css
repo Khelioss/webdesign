@@ -1086,6 +1086,82 @@ footer {
     padding: 0.6rem 1rem;
   }
 }
+/* =====================================
+   📱 CORREZIONE HOME (centrata su mobile)
+   ===================================== */
+@media (max-width: 768px) {
+
+  /* Contenitore home */
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 1.5rem;
+  }
+
+  /* Titolo principale */
+  .home-text h1 {
+    font-size: 2.4rem;   /* leggermente più grande rispetto al resto */
+    line-height: 1.3;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-text h1 span {
+    color: var(--primary);
+  }
+
+  /* Immagine */
+  .home-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-image img {
+    max-width: 260px;
+    width: 80%;
+    height: auto;
+  }
+
+  /* Contatori (opinioni positive / clienti soddisfatti) */
+  .home-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .home-stats .stat {
+    text-align: center;
+  }
+
+  .home-stats h2 {
+    font-size: 2.5rem;  /* un po' più grande per equilibrio visivo */
+    color: var(--primary);
+  }
+
+  .home-stats p {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  /* Pulsante preventivo */
+  .bottone-scopri {
+    text-align: center;
+  }
+
+  .bottone-scopri a {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.8rem;
+  }
+}
 
 
 
