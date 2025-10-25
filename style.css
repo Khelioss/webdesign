@@ -906,5 +906,186 @@ footer {
     justify-content: center;
   }
 }
+/* ===============================
+   📱 OTTIMIZZAZIONE MOBILE GLOBALE
+   =============================== */
+@media (max-width: 768px) {
+
+  html, body {
+    font-size: 14px; /* riduce font base di tutto il sito */
+  }
+
+  /* --- HEADER --- */
+  .header {
+    padding: 8px 15px;
+  }
+
+  .logo img {
+    width: 35px;
+    height: auto;
+  }
+
+  .logo span {
+    font-size: 0.9rem;
+  }
+
+  .navbar ul li a {
+    font-size: 0.9rem;
+  }
+
+  /* --- HOME --- */
+  .home-container {
+    padding: 4rem 1.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .home-text h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .home-text h1 span {
+    font-size: 2.2rem;
+  }
+
+  .home-image img {
+    width: 70%;
+    max-width: 250px;
+  }
+
+  .bottone-scopri a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  /* --- STATISTICHE --- */
+  .home-stats {
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  .home-stats h2 {
+    font-size: 2.2rem;
+  }
+
+  .home-stats p {
+    font-size: 0.9rem;
+  }
+
+  /* --- SERVIZI --- */
+  .servizi h1 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 1rem;
+    min-width: 220px;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  /* --- PORTFOLIO --- */
+  .portfolio h2 {
+    font-size: 1.6rem;
+  }
+
+  .project-card h3 {
+    font-size: 1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .portfolio-filter button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* --- FAQ --- */
+  .faq-question {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
+  }
+
+  /* --- CONTATTI --- */
+  .contattami h2 {
+    font-size: 1.4rem;
+  }
+
+  .contattami p {
+    font-size: 0.9rem;
+  }
+
+  .btn-preventivo {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  /* --- FOOTER --- */
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    font-size: 0.9rem;
+  }
+
+  .footer-right h2 {
+    font-size: 1.1rem;
+  }
+
+  .footer-icons a {
+    font-size: 1.4rem;
+  }
+
+  /* --- WHATSAPP FLOAT --- */
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+/* ===============================
+   📱 MICRO MOBILE (schermi piccoli)
+   =============================== */
+@media (max-width: 480px) {
+  html, body {
+    font-size: 12px;
+  }
+
+  .home-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .card p,
+  .faq-question,
+  .faq-answer,
+  .portfolio p {
+    font-size: 0.85rem;
+  }
+
+  .btn-preventivo {
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
 
 
