@@ -1162,6 +1162,59 @@ footer {
     padding: 0.7rem 1.8rem;
   }
 }
+@media (max-width: 768px) {
+
+  /* --- SPAZIO TRA NAVBAR E TITOLO --- */
+  .home {
+    padding-top: 100px; /* aumenta distanza dal menu */
+  }
+
+  /* Titolo home – leggermente più grande e spazioso */
+  .home-text h1 {
+    font-size: 2.6rem;  /* prima era 2.4 */
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  /* Servizi – un filo più leggibili */
+  .card h2 {
+    font-size: 1.05rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  /* Bottone email contatti – un po' più compatto */
+  .btn-preventivo {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+.servizi {
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+.header.scrolled {
+  padding: 8px 20px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+
+.home-text h1 span {
+  background: linear-gradient(90deg, #0d6efd, #3b8eff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+
+
+
+
 
 
 
