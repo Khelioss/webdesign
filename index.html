@@ -265,18 +265,20 @@
     <h2>Contattaci <span>ora!</span></h2>
     <p>Hai un progetto in mente? Scrivici e scopri come possiamo aiutarti a far crescere la tua presenza online.</p>
 
-    <form class="contact-form" action="https://formspree.io/f/xeopjwjp" method="POST">
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <!-- 🔑 Chiave personale Web3Forms -->
+  <input type="hidden" name="access_key" value="abu4xw483z99sy">
+
+  <!-- 🧠 Campi del form -->
   <input type="text" name="nome" placeholder="Il tuo nome" required>
   <input type="email" name="email" placeholder="La tua email" required>
   <textarea name="messaggio" placeholder="Raccontaci del tuo progetto..." required></textarea>
 
-  <!-- 🔁 Redirect automatico -->
-  <input type="hidden" name="_next" value="https://khelioss.github.io/webdesign/thankyou.html">
-
-  <!-- 🚫 Disabilita captcha di Formspree -->
-  <input type="hidden" name="_captcha" value="false">
-
+  <!-- 🚀 Pulsante -->
   <button type="submit"><i class="fas fa-paper-plane"></i> Invia Messaggio</button>
+
+  <!-- 🔁 Redirect alla tua pagina personalizzata -->
+  <input type="hidden" name="redirect" value="https://khelioss.github.io/webdesign/thankyou.html">
 </form>
 
 
@@ -380,6 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </body>
 
 </html>
+
 
 
 
