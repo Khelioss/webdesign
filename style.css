@@ -1208,6 +1208,68 @@ footer {
   -webkit-background-clip: text;
   color: transparent;
 }
+/* ==============================
+   💻 CORREZIONE TABLET (768–1024px)
+   ============================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 2rem;
+    gap: 2rem;
+  }
+
+  .home-text {
+    text-align: center;
+  }
+
+  .home-text h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .home-image img {
+    max-width: 320px;
+    width: 80%;
+    height: auto;
+  }
+
+  .home-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .home-stats .stat {
+    text-align: center;
+  }
+
+  .home-stats h2 {
+    font-size: 3rem;
+  }
+
+  .home-stats p {
+    font-size: 1.1rem;
+  }
+
+  .bottone-scopri {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+}
+
 
 
 
