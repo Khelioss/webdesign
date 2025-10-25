@@ -265,20 +265,20 @@
     <h2>Contattaci <span>ora!</span></h2>
     <p>Hai un progetto in mente? Scrivici e scopri come possiamo aiutarti a far crescere la tua presenza online.</p>
 
-    <form class="contact-form" action="https://formsubmit.co/elioesonia@gmail.com" method="POST">
-      <input type="text" name="nome" placeholder="Il tuo nome" required>
-      <input type="email" name="email" placeholder="La tua email" required>
-      <textarea name="messaggio" placeholder="Raccontaci del tuo progetto..." required></textarea>
-      <button type="submit"><i class="fas fa-paper-plane"></i> Invia Messaggio</button>
+    <form class="contact-form" action="https://formspree.io/f/xeopjwjp" method="POST">
+  <input type="text" name="nome" placeholder="Il tuo nome" required>
+  <input type="email" name="email" placeholder="La tua email" required>
+  <textarea name="messaggio" placeholder="Raccontaci del tuo progetto..." required></textarea>
 
-      <input type="hidden" name="_next" value="https://khelioss.github.io/webdesign/thankyou.html">
-<input type="hidden" name="_redirect" value="https://khelioss.github.io/webdesign/thankyou.html">
-<input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
+  <!-- 🔁 Redirect automatico -->
+  <input type="hidden" name="_redirect" value="https://khelioss.github.io/webdesign/thankyou.html">
 
+  <!-- 🚫 Disabilita captcha di Formspree -->
+  <input type="hidden" name="_captcha" value="false">
 
+  <button type="submit"><i class="fas fa-paper-plane"></i> Invia Messaggio</button>
+</form>
 
-    </form>
 
     <div class="contatti-social">
       <a href="https://www.instagram.com/khelioswebdesign_/" target="_blank"><img src="instagram-logo-instagram-icon-transparent-free-png.webp" alt="Instagram"></a>
@@ -380,6 +380,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </body>
 
 </html>
+
 
 
 
